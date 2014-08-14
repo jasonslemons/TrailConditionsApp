@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6F7C5D199C4D340043814C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C5C199C4D340043814C /* Foundation.framework */; };
+		7D6F7C5F199C4D340043814C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C5E199C4D340043814C /* CoreGraphics.framework */; };
+		7D6F7C61199C4D340043814C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C60199C4D340043814C /* UIKit.framework */; };
+		7D6F7C67199C4D340043814C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F7C65199C4D340043814C /* InfoPlist.strings */; };
+		7D6F7C69199C4D340043814C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F7C68199C4D340043814C /* main.m */; };
+		7D6F7C6D199C4D340043814C /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F7C6C199C4D340043814C /* XYZAppDelegate.m */; };
+		7D6F7C6F199C4D340043814C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F7C6E199C4D340043814C /* Images.xcassets */; };
+		7D6F7C76199C4D340043814C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C75199C4D340043814C /* XCTest.framework */; };
+		7D6F7C77199C4D340043814C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C5C199C4D340043814C /* Foundation.framework */; };
+		7D6F7C78199C4D340043814C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F7C60199C4D340043814C /* UIKit.framework */; };
+		7D6F7C80199C4D340043814C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F7C7E199C4D340043814C /* InfoPlist.strings */; };
+		7D6F7C82199C4D340043814C /* SnowflakeUiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F7C81199C4D340043814C /* SnowflakeUiTests.m */; };
+		7D6F7C8C199C4EB20043814C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F7C8B199C4EB20043814C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6F7C79199C4D340043814C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6F7C51199C4D340043814C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6F7C58199C4D340043814C;
+			remoteInfo = SnowflakeUi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D6F7C59199C4D340043814C /* SnowflakeUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowflakeUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6F7C5C199C4D340043814C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D6F7C5E199C4D340043814C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D6F7C60199C4D340043814C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D6F7C64199C4D340043814C /* SnowflakeUi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnowflakeUi-Info.plist"; sourceTree = "<group>"; };
+		7D6F7C66199C4D340043814C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D6F7C68199C4D340043814C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D6F7C6A199C4D340043814C /* SnowflakeUi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnowflakeUi-Prefix.pch"; sourceTree = "<group>"; };
+		7D6F7C6B199C4D340043814C /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		7D6F7C6C199C4D340043814C /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		7D6F7C6E199C4D340043814C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D6F7C74199C4D340043814C /* SnowflakeUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowflakeUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6F7C75199C4D340043814C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D6F7C7D199C4D340043814C /* SnowflakeUiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnowflakeUiTests-Info.plist"; sourceTree = "<group>"; };
+		7D6F7C7F199C4D340043814C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D6F7C81199C4D340043814C /* SnowflakeUiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowflakeUiTests.m; sourceTree = "<group>"; };
+		7D6F7C8B199C4EB20043814C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6F7C56199C4D340043814C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C5F199C4D340043814C /* CoreGraphics.framework in Frameworks */,
+				7D6F7C61199C4D340043814C /* UIKit.framework in Frameworks */,
+				7D6F7C5D199C4D340043814C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6F7C71199C4D340043814C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C76199C4D340043814C /* XCTest.framework in Frameworks */,
+				7D6F7C78199C4D340043814C /* UIKit.framework in Frameworks */,
+				7D6F7C77199C4D340043814C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6F7C50199C4D340043814C = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C62199C4D340043814C /* SnowflakeUi */,
+				7D6F7C7B199C4D340043814C /* SnowflakeUiTests */,
+				7D6F7C5B199C4D340043814C /* Frameworks */,
+				7D6F7C5A199C4D340043814C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6F7C5A199C4D340043814C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C59199C4D340043814C /* SnowflakeUi.app */,
+				7D6F7C74199C4D340043814C /* SnowflakeUiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6F7C5B199C4D340043814C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C5C199C4D340043814C /* Foundation.framework */,
+				7D6F7C5E199C4D340043814C /* CoreGraphics.framework */,
+				7D6F7C60199C4D340043814C /* UIKit.framework */,
+				7D6F7C75199C4D340043814C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D6F7C62199C4D340043814C /* SnowflakeUi */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C6B199C4D340043814C /* XYZAppDelegate.h */,
+				7D6F7C6C199C4D340043814C /* XYZAppDelegate.m */,
+				7D6F7C8B199C4EB20043814C /* Main.storyboard */,
+				7D6F7C6E199C4D340043814C /* Images.xcassets */,
+				7D6F7C63199C4D340043814C /* Supporting Files */,
+			);
+			path = SnowflakeUi;
+			sourceTree = "<group>";
+		};
+		7D6F7C63199C4D340043814C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C64199C4D340043814C /* SnowflakeUi-Info.plist */,
+				7D6F7C65199C4D340043814C /* InfoPlist.strings */,
+				7D6F7C68199C4D340043814C /* main.m */,
+				7D6F7C6A199C4D340043814C /* SnowflakeUi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D6F7C7B199C4D340043814C /* SnowflakeUiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C81199C4D340043814C /* SnowflakeUiTests.m */,
+				7D6F7C7C199C4D340043814C /* Supporting Files */,
+			);
+			path = SnowflakeUiTests;
+			sourceTree = "<group>";
+		};
+		7D6F7C7C199C4D340043814C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F7C7D199C4D340043814C /* SnowflakeUiTests-Info.plist */,
+				7D6F7C7E199C4D340043814C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6F7C58199C4D340043814C /* SnowflakeUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6F7C85199C4D340043814C /* Build configuration list for PBXNativeTarget "SnowflakeUi" */;
+			buildPhases = (
+				7D6F7C55199C4D340043814C /* Sources */,
+				7D6F7C56199C4D340043814C /* Frameworks */,
+				7D6F7C57199C4D340043814C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowflakeUi;
+			productName = SnowflakeUi;
+			productReference = 7D6F7C59199C4D340043814C /* SnowflakeUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6F7C73199C4D340043814C /* SnowflakeUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6F7C88199C4D340043814C /* Build configuration list for PBXNativeTarget "SnowflakeUiTests" */;
+			buildPhases = (
+				7D6F7C70199C4D340043814C /* Sources */,
+				7D6F7C71199C4D340043814C /* Frameworks */,
+				7D6F7C72199C4D340043814C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6F7C7A199C4D340043814C /* PBXTargetDependency */,
+			);
+			name = SnowflakeUiTests;
+			productName = SnowflakeUiTests;
+			productReference = 7D6F7C74199C4D340043814C /* SnowflakeUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6F7C51199C4D340043814C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					7D6F7C73199C4D340043814C = {
+						TestTargetID = 7D6F7C58199C4D340043814C;
+					};
+				};
+			};
+			buildConfigurationList = 7D6F7C54199C4D340043814C /* Build configuration list for PBXProject "SnowflakeUi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D6F7C50199C4D340043814C;
+			productRefGroup = 7D6F7C5A199C4D340043814C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6F7C58199C4D340043814C /* SnowflakeUi */,
+				7D6F7C73199C4D340043814C /* SnowflakeUiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6F7C57199C4D340043814C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C8C199C4EB20043814C /* Main.storyboard in Resources */,
+				7D6F7C67199C4D340043814C /* InfoPlist.strings in Resources */,
+				7D6F7C6F199C4D340043814C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6F7C72199C4D340043814C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C80199C4D340043814C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6F7C55199C4D340043814C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C6D199C4D340043814C /* XYZAppDelegate.m in Sources */,
+				7D6F7C69199C4D340043814C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6F7C70199C4D340043814C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F7C82199C4D340043814C /* SnowflakeUiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6F7C7A199C4D340043814C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6F7C58199C4D340043814C /* SnowflakeUi */;
+			targetProxy = 7D6F7C79199C4D340043814C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D6F7C65199C4D340043814C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6F7C66199C4D340043814C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D6F7C7E199C4D340043814C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6F7C7F199C4D340043814C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D6F7C83199C4D340043814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D6F7C84199C4D340043814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6F7C86199C4D340043814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowflakeUi/SnowflakeUi-Prefix.pch";
+				INFOPLIST_FILE = "SnowflakeUi/SnowflakeUi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D6F7C87199C4D340043814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowflakeUi/SnowflakeUi-Prefix.pch";
+				INFOPLIST_FILE = "SnowflakeUi/SnowflakeUi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D6F7C89199C4D340043814C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowflakeUi.app/SnowflakeUi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowflakeUi/SnowflakeUi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnowflakeUiTests/SnowflakeUiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D6F7C8A199C4D340043814C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowflakeUi.app/SnowflakeUi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowflakeUi/SnowflakeUi-Prefix.pch";
+				INFOPLIST_FILE = "SnowflakeUiTests/SnowflakeUiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6F7C54199C4D340043814C /* Build configuration list for PBXProject "SnowflakeUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6F7C83199C4D340043814C /* Debug */,
+				7D6F7C84199C4D340043814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6F7C85199C4D340043814C /* Build configuration list for PBXNativeTarget "SnowflakeUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6F7C86199C4D340043814C /* Debug */,
+				7D6F7C87199C4D340043814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D6F7C88199C4D340043814C /* Build configuration list for PBXNativeTarget "SnowflakeUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6F7C89199C4D340043814C /* Debug */,
+				7D6F7C8A199C4D340043814C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6F7C51199C4D340043814C /* Project object */;
+}
